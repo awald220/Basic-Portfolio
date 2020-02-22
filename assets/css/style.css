@@ -18,6 +18,12 @@
      padding-right: 20px;
      
  }
+
+ .logo-and-nav {
+     width: 960px;
+     position: relative;
+     margin: 0 auto;
+ }
  
  .logo {
      background-color: #4aaaa5;
@@ -27,16 +33,12 @@
      width: 200px;
      color: #ffffff;
      font-size: 25px;
-     
      position: relative;
      right: 0px;
-     left: 7%; 
-     
-     
-  
-     
+     left: -5px
  }
- 
+
+  
  .nav ul {
      font-size: 14px;
      float: right;
@@ -45,7 +47,7 @@
      margin-right: 15px;
      margin-top: 55px;
      right: 50px;
-     left: -40px;
+     left: 30px;
  }
  
  .middle {
@@ -64,7 +66,7 @@
  }
  
  .border {
-     width: 940px;
+     width: 960px;
      border-bottom: 1px solid #666666;
      margin: 0 auto;
     
@@ -99,48 +101,71 @@
      margin-right: 20px;  
  }
 
- .name {
-     border-bottom: 1px solid #666666;
-     border-top: 1px solid #666666;
-     border-left: 1px solid #666666;
-     border-right: 1px solid #666666;
-
-     height: 25px;
-     width: 940px;
- }
-
- .email {
-    border-bottom: 1px solid #666666;
-    border-top: 1px solid #666666;
-    border-left: 1px solid #666666;
-    border-right: 1px solid #666666;
-
-    height: 25px;
-    width: 940px;
-}
-
-.message {
-    border-bottom: 1px solid #666666;
-    border-top: 1px solid #666666;
-    border-left: 1px solid #666666;
-    border-right: 1px solid #666666;
-
-    height: 25px;
-    width: 940px;
-}
-
 .column {
     display: inline-block;
     padding: 20px;
     float: left;
-    clear: right;
     
+    
+}
+
+.column h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    bottom: 95px;
 }
 
 .pmiddle {
     background-color: #ffffff;
     width: 960px; 
-    height: 1000px;
+    height: 1300px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.form-control {
+    width: 940px;
+    height: 30px;
+    position: relative;
+    bottom: 95px;
+    font-size: large;
+}
+
+.form-control-m {
+    width: 940px;
+    height: 150px;
+    position: relative;
+    bottom: 95px;
+    font-size: large;
+}
+
+.contact p {
+   color: #666666;
+   position: relative;
+   bottom: 95px;
+
+}
+
+.cmiddle {
+    background-color: #ffffff;
+    width: 960px; 
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    width: 95px;
+    height: 35px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    position: relative;
+    bottom: 75px;
+    font-size: large;
 }
