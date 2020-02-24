@@ -1,34 +1,38 @@
-.body {
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-    
+body {
+    margin: 0;
+    padding:0;
+   
  }
+
  
  .top {
      width: 100%;
      margin-top: -20px;
      margin-left: -20px;
      margin-right: 20px;
+     padding-bottom: 93px;
+     position: relative;
      height: 12%;
      background-color: #ffffff;
      border-bottom: .5px solid #666666;
      padding-right: 40px;
-     display: flex;
+     
      
  }
 
  .logo-and-nav {
-     width: 960px;
-     display: flex;
-     padding-left: 120px;
-     padding-right: -100px;
+    background-color: #ffffff;
+    width: 960px; 
+    height: -20px;
+    margin: 0 auto;
+   
      
  }
  
  .logo {
      background-color: #4aaaa5;
      text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
      float: left;
      height: 93px;
      width: 200px;
@@ -39,25 +43,30 @@
      left: -5px
  }
 
+ .logo p {
+     padding-top: 10px;
+ }
+
   
  .nav ul {
      font-size: 14px;
      float: right;
      color: #666666;
-     position: relative;
-     margin-right: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     display: block;
+     margin-right: -15px;
      margin-top: 55px;
-     right: 50px;
-     left: 400px;
+    
  }
  
  .middle {
-     background-color: #ffffff;
-     width: 960px; 
-     height: 400px;
-     padding: 20px;
-     margin: 90px 100px 200px 100px;
-     position: relative;
+    background-color: #ffffff;
+    width: 960px; 
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 120px;
  }
  
  .heading {
@@ -69,20 +78,27 @@
  }
  
  .border {
-     width: 960px;
-     border-bottom: 1px solid #666666;
+     width: 940px;
+     border-bottom: .5px solid #666666;
      margin: 0 auto;
+     padding-top: -10px;
     
  }
  
  .about {
      
-     text-align: right;
+     text-align: left;
      color: #666666;
      font-family: Arial, Helvetica, sans-serif ;
      display: flex;
      
  }
+
+.about p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
 
  .about img {
      padding: 20px;
@@ -92,8 +108,7 @@
  
  .footer {
      background-color: #666666;
-     text-align: center;
-     
+     text-align: center; 
      border-top: 8px solid #4aaaa5;
      color: #ffffff;
      font-family: Arial, Helvetica, sans-serif;
@@ -131,6 +146,21 @@
     height: 1300px;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.gallery1 {
+    display: flex;
+    flex-directi;
+}
+
+.gallery2 {
+    display: flex;
+}
+
+.gallery3 {
+    display: flex;
 }
 
 .form-control {
@@ -151,6 +181,7 @@
 
 .contact p {
    color: #666666;
+   font-family: Arial, Helvetica, sans-serif;
    position: relative;
    bottom: 95px;
 
@@ -162,6 +193,8 @@
     height: 600px;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 120px;
 }
 
 .submit {
