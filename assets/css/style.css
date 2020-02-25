@@ -1,64 +1,83 @@
-body {
+ body {
     margin: 0;
     padding:0;
    
  }
 
- 
+
  .top {
-     width: 100%;
-     margin-top: -20px;
-     margin-left: -20px;
-     margin-right: 20px;
-     padding-bottom: 93px;
-     position: relative;
-     height: 12%;
-     background-color: #ffffff;
-     border-bottom: .5px solid #666666;
-     padding-right: 40px;
-     
-     
+    width: 100%;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: 20px;
+    padding-bottom: 8px;
+    position: relative;
+    height: 12%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    padding-right: 40px;   
  }
 
  .logo-and-nav {
     background-color: #ffffff;
     width: 960px; 
     height: -20px;
-    margin: 0 auto;
-   
-     
+    margin: 0 auto; 
  }
- 
+
  .logo {
-     background-color: #4aaaa5;
-     text-align: center;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     float: left;
-     height: 93px;
-     width: 200px;
-     color: #ffffff;
-     font-size: 25px;
-     position: relative;
-     right: 0px;
-     left: -5px
+    background-color: #4aaaa5;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    height: 93px;
+    width: 200px;
+    color: #ffffff;
+    font-size: 25px;
+    position: relative;
+    right: 0px;
+    left: -5px
  }
 
  .logo p {
-     padding-top: 10px;
+    padding-top: 10px;
  }
 
-  
- .nav ul {
-     font-size: 14px;
-     float: right;
-     color: #666666;
-     font-family: Arial, Helvetica, sans-serif;
-     display: block;
-     margin-right: -15px;
-     margin-top: 55px;
-    
+ .nav p {
+    font-size: 14px;
+    float: right;
+    color: #777777;
+    position: relative;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-right: -60px;
+    margin-top: 55px;
  }
- 
+
+ .inner-nav {
+    display: flex;
+ }
+
+ #item0 {
+    flex: 4;
+ }
+
+ #item1 {
+    flex: 1;
+    padding-right: 30px;
+ }
+
+ #item2 {
+    flex: 1;
+    padding-right: 30px;
+ }
+
+ #item3 {
+    flex: 1;
+    padding-right: 30px;
+ }
+
  .middle {
     background-color: #ffffff;
     width: 960px; 
@@ -67,12 +86,12 @@ body {
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 120px;
+    border: 1px solid #dddddd;
  }
  
  .heading {
      color: #4aaaa5;
      padding-left: 20px;
-     
      font-size: 40px;
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
@@ -86,25 +105,24 @@ body {
  }
  
  .about {
-     
      text-align: left;
      color: #666666;
      font-family: Arial, Helvetica, sans-serif ;
      display: flex;
-     
  }
 
-.about p {
+ .about p {
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
     padding-top: 10px;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+
+ }
 
  .about img {
-     padding: 20px;
+     padding: 25px;
  }
- 
- 
  
  .footer {
      background-color: #666666;
@@ -122,15 +140,13 @@ body {
      margin-right: 20px;  
  }
 
-.column {
+ .column {
     display: inline-block;
     padding: 20px;
     float: left;
-    
-    
-}
+ }
 
-.column h1 {
+ .column h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     height: 60px;
@@ -138,9 +154,9 @@ body {
     text-align: center;
     position: relative;
     bottom: 95px;
-}
+ }
 
-.pmiddle {
+ .pmiddle {
     background-color: #ffffff;
     width: 960px; 
     height: 1300px;
@@ -148,46 +164,52 @@ body {
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 120px;
-}
+    border: 1px solid #dddddd;
+ }
 
-.gallery1 {
+ .gallery1 {
     display: flex;
     flex-directi;
-}
+ }
 
-.gallery2 {
+ .gallery2 {
     display: flex;
-}
+ }
 
-.gallery3 {
+ .gallery3 {
     display: flex;
-}
+ }
 
-.form-control {
+ .contact {
+    margin-top: 130px;
+    padding: 5px 10px 10px 10px;
+ }
+
+ .form-control {
     width: 940px;
     height: 30px;
     position: relative;
     bottom: 95px;
     font-size: large;
-}
+ }
 
-.form-control-m {
+ .form-control-m {
     width: 940px;
     height: 150px;
     position: relative;
     bottom: 95px;
     font-size: large;
-}
+ }
 
-.contact p {
-   color: #666666;
+ .contact p {
+   color: #777777;
    font-family: Arial, Helvetica, sans-serif;
    position: relative;
    bottom: 95px;
 
-}
+ }
 
-.cmiddle {
+ .cmiddle {
     background-color: #ffffff;
     width: 960px; 
     height: 600px;
@@ -195,9 +217,10 @@ body {
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 120px;
-}
+    border: 1px solid #dddddd;
+ }
 
-.submit {
+ .submit {
     background-color: #4aaaa5;
     width: 95px;
     height: 35px;
@@ -207,4 +230,4 @@ body {
     position: relative;
     bottom: 75px;
     font-size: large;
-}
+ }
